@@ -58,8 +58,12 @@
                <img src="img/index/01.png" alt="">
             </a>
          </div>
-         <div class="main-screen__bg ibg">
-            <img src="img/index/main.jpg" alt="">
+         <div class="main-screen__bg">
+            <picture>
+               <source srcset="img/index/main_320.jpg" media="(max-width: 360px)">
+               <source srcset="img/index/main_480.jpg" media="(max-width: 480px)">
+               <img src="img/index/main.jpg" alt="">
+            </picture>
          </div>
       </div>
       <div class="info">
@@ -275,11 +279,18 @@
                   </div>
                </div>
             </div>
-            <div class="special__bg_01 ibg">
-               <img src="img/index/special/bg_01.jpg" alt="">
+            <div class="special__bg_01">
+               <picture>
+                  <source srcset="img/index/special/bg_01_320.jpg" media="(max-width: 360px)">
+                  <source srcset="img/index/special/bg_01_660.jpg" media="(max-width: 660px)">
+                  <img src="img/index/special/bg_01.jpg" alt="">
+               </picture>
             </div>
             <div class="special__bg_02">
-               <img src="img/index/special/bg_02.png" alt="">
+               <picture>
+                  <source srcset="img/index/special/bg_02_440.png" media="(max-width: 440px)">
+                  <img src="img/index/special/bg_02.png" alt="">
+               </picture>
             </div>
          </div>
          <!-- Food menu -->
@@ -395,10 +406,16 @@
                </div>
             </div>
             <div class="food-menu__bg_01">
-               <img src="img/index/menu/bg1.png" alt="">
+               <picture>
+                  <source srcset="img/index/menu/bg1_1px.png" media="(max-width: 480px)">
+                  <img src="img/index/menu/bg1.png" alt="">
+               </picture>
             </div>
             <div class="food-menu__bg_02">
-               <img src="img/index/menu/bg2.png" alt="">
+               <picture>
+                  <source srcset="img/index/menu/bg1_1px.png" media="(max-width: 480px)">
+                  <img src="img/index/menu/bg2.png" alt="">
+               </picture>
             </div>
          </div>
          <!-- Client -->
